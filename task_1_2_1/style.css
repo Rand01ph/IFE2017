@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 60px;
+    background: #333;
+}
+
+.logo {
+    padding-left: 20px;
+    height: 60px;
+}
+
+.navbar-right {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.nav-menu {
+    text-align: center;
+    width: 100px;
+    display: block;
+    float: left;
+    padding: 20px 10px;
+}
+
+/*http://stackoverflow.com/questions/6257041/why-does-the-list-style-disappear-when-display-block-is-added-to-a-list-item-in*/
+.nav-menu:before {
+    content: "• ";
+}
+
+.nav-menu > a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.article-block {
+    margin: 20px;
+    padding: 20px;
+}
